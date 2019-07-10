@@ -19,7 +19,8 @@ RUN apk add --update \
   openssl-dev \
   py-pip \
   python2-dev \
-  composer
+  composer \
+  yarn
 
 RUN pip install --upgrade pip
 RUN pip install awscli
